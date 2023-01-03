@@ -16,5 +16,4 @@ router
   .get(orderController.GetOrderById)
   .put(orderController.UpdateOrderById)
   .delete(orderController.CancelOrder); 
-
 module.exports = router;
